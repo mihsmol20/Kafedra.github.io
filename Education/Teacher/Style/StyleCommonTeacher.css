@@ -1,0 +1,872 @@
+/* Rating */
+.ratingStar {
+    font-size: 0pt;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+}
+
+/*информ. окна*/
+.panelS {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.panelFopmTop {
+    background-color: ActiveCaption;
+    height: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/*общие*/
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    border: 0;
+    border-collapse: separate;
+    background-origin: border-box !important;
+    border-width: 0;
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 38px;
+}
+
+.postcontent,
+.postheadericons,
+.postfootericons,
+.blockcontent,
+ul.vmenu a {
+    text-align: left;
+}
+
+header, footer, article, nav, #hmenu-bg, .sheet, .hmenu a, .vmenu a, .slidenavigator > a, .checkbox:before, .radiobutton:before {
+    background-origin: border-box !important;
+}
+
+header, footer, article, nav, #hmenu-bg, .sheet, .slidenavigator > a, .checkbox:before, .radiobutton:before {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    /*list-style-type: none;*/
+}
+
+ol {
+    /*list-style-position: inside;*/
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+}
+
+
+.header:before, #header-bg:before, .layout-cell:before, .layout-wrapper:before, .footer:before, .nav:before, #hmenu-bg:before, .sheet:before {
+    width: 100%;
+    content: " ";
+    display: table;
+}
+
+.header:after, #header-bg:after, .layout-cell:after, .layout-wrapper:after, .footer:after, .nav:after, #hmenu-bg:after, .sheet:after,
+.cleared, .clearfix:after {
+    clear: both;
+    font: 0/0 serif;
+    display: block;
+    content: " ";
+}
+
+form {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+table.position {
+    position: relative;
+    width: 100%;
+    table-layout: fixed;
+}
+
+li h1, .postcontent li h1, .blockcontent li h1 {
+    margin: 1px;
+}
+
+li h2, .postcontent li h2, .blockcontent li h2 {
+    margin: 1px;
+}
+
+li h3, .postcontent li h3, .blockcontent li h3 {
+    margin: 1px;
+}
+
+li h4, .postcontent li h4, .blockcontent li h4 {
+    margin: 1px;
+}
+
+li h5, .postcontent li h5, .blockcontent li h5 {
+    margin: 1px;
+}
+
+li h6, .postcontent li h6, .blockcontent li h6 {
+    margin: 1px;
+}
+
+li p, .postcontent li p, .blockcontent li p {
+    margin: 1px;
+}
+
+.header > .widget {
+    position: absolute;
+    z-index: 101;
+}
+
+.shapes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.slider-inner {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.slidenavigator > a {
+    display: inline-block;
+    vertical-align: middle;
+    outline-style: none;
+    font-size: 1px;
+}
+
+    .slidenavigator > a:last-child {
+        margin-right: 0 !important;
+    }
+
+.object489546606 h1,
+.object489546606 h2,
+.object489546606 h3,
+.object489546606 h4,
+.object489546606 h5,
+.object489546606 h6,
+.object489546606 p,
+.object489546606 a,
+.object489546606 ul,
+.object489546606 ol,
+.object489546606 li {
+    line-height: 100%;
+}
+
+.object489546606-text-container {
+    display: table;
+    width: 100%;
+}
+
+.ie7 .post .layout-cell {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.ie6 .post .layout-cell {
+    border: none !important;
+    padding: 0 !important;
+}
+
+ul.hmenu a, ul.hmenu a:link, ul.hmenu a:visited, ul.hmenu a:hover {
+    outline: none;
+    position: relative;
+    z-index: 11;
+}
+
+ul.hmenu, ul.hmenu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+}
+
+    ul.hmenu li {
+        position: relative;
+        z-index: 5;
+        display: block;
+        float: left;
+        background: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+        ul.hmenu li:hover {
+            z-index: 10000;
+            white-space: normal;
+        }
+
+    ul.hmenu:after, ul.hmenu ul:after {
+        content: ".";
+        height: 0;
+        display: block;
+        visibility: hidden;
+        overflow: hidden;
+        clear: both;
+    }
+
+    ul.hmenu, ul.hmenu ul {
+        min-height: 0;
+    }
+
+ul.hmenu {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.nav:before {
+    content: ' ';
+}
+
+.nav-inner:before {
+    content: ' ';
+}
+
+.nav-inner {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.desktop .nav-inner {
+    width: 1000px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.desktop .nav {
+    /*width: 1000px;*/
+    padding-left: 480px;
+    padding-right: 0;
+}
+
+.hmenu-extra1 {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    background-position: center;
+}
+
+.hmenu-extra2 {
+    position: relative;
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    background-position: center;
+}
+
+.hmenu {
+    float: left;
+}
+
+.menuitemcontainer {
+    margin: 0 auto;
+}
+
+ul.hmenu > li {
+    margin-left: 1px;
+}
+
+    ul.hmenu > li:first-child {
+        margin-left: 0;
+    }
+
+    ul.hmenu > li:last-child, ul.hmenu > li.last-child {
+        margin-right: 0;
+    }
+
+.hmenu > li > a,
+.hmenu > li > a:link,
+.hmenu > li > a:visited,
+.hmenu > li > a.active,
+.hmenu > li > a:hover {
+    font-size: 11px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+ul.hmenu > li > a:visited,
+ul.hmenu > li > a:hover,
+ul.hmenu > li:hover > a {
+    text-decoration: none;
+}
+
+ul.hmenu > li:first-child:before {
+    display: none;
+}
+
+ul.hmenu li li {
+    float: none;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.desktop ul.hmenu li li ul > li:first-child {
+    margin-top: 0;
+}
+
+ul.hmenu li li ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.hmenu ul a {
+    display: block;
+    white-space: nowrap;
+    height: 21px;
+    min-width: 7em;
+    border: 1px solid transparent;
+    text-align: left;
+    line-height: 21px;
+    color: #000000;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+.hmenu li li a {
+    border-top-width: 0 !important;
+}
+
+.hmenu li li:hover > a {
+    border-top-width: 1px !important;
+}
+
+.hmenu ul > li:first-child > a {
+    border-top-width: 1px !important;
+}
+
+.hmenu ul a:link,
+.hmenu ul a:visited,
+.hmenu ul a.active,
+.hmenu ul a:hover {
+    text-align: left;
+    line-height: 21px;
+    color: #000000;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+.hmenu ul a:hover {
+    color: #000000;
+}
+
+.hmenu ul li a.hmenu-before-hovered {
+    border-bottom-width: 0 !important;
+}
+
+.desktop .hmenu ul li:hover > a {
+    color: #000000;
+}
+
+
+.desktop ul.hmenu li:hover > ul {
+    visibility: visible;
+    top: 100%;
+}
+
+.desktop ul.hmenu li li:hover > ul {
+    top: 0;
+    left: 100%;
+}
+
+.desktop ul.hmenu > li > ul {
+    padding: 10px 30px 30px 30px;
+    margin: -10px 0 0 -30px;
+}
+
+.desktop ul.hmenu ul ul {
+    padding: 30px 30px 30px 10px;
+    margin: -30px 0 0 -10px;
+}
+
+.desktop ul.hmenu ul.hmenu-left-to-right {
+    right: auto;
+    left: 0;
+    margin: -10px 0 0 -30px;
+}
+
+.desktop ul.hmenu ul.hmenu-right-to-left {
+    left: auto;
+    right: 0;
+    margin: -10px -30px 0 0;
+}
+
+.desktop ul.hmenu li li:hover > ul.hmenu-left-to-right {
+    right: auto;
+    left: 100%;
+}
+
+
+.desktop ul.hmenu li li:hover > ul.hmenu-right-to-left {
+    left: auto;
+    right: 100%;
+}
+
+.desktop ul.hmenu ul ul.hmenu-left-to-right {
+    right: auto;
+    left: 0;
+    padding: 30px 30px 30px 10px;
+    margin: -30px 0 0 -10px;
+}
+
+.desktop ul.hmenu ul ul.hmenu-right-to-left {
+    left: auto;
+    right: 0;
+    padding: 30px 10px 30px 30px;
+    margin: -30px -10px 0 0;
+}
+
+.desktop ul.hmenu li ul > li:first-child {
+    margin-top: 0;
+}
+
+.desktop ul.hmenu li ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.desktop ul.hmenu ul ul:before {
+    border-radius: 0;
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 10px;
+}
+
+.desktop ul.hmenu > li > ul:before {
+    top: 10px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+}
+
+.desktop ul.hmenu > li > ul.hmenu-left-to-right:before {
+    right: 30px;
+    left: 30px;
+}
+
+.desktop ul.hmenu > li > ul.hmenu-right-to-left:before {
+    right: 30px;
+    left: 30px;
+}
+
+.desktop ul.hmenu ul ul.hmenu-left-to-right:before {
+    right: 30px;
+    left: 10px;
+}
+
+.desktop ul.hmenu ul ul.hmenu-right-to-left:before {
+    right: 10px;
+    left: 30px;
+}
+
+.layout-wrapper {
+    position: relative;
+    margin: 0 auto 0 auto;
+    z-index: auto !important;
+}
+
+.content-layout {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.content-layout-row {
+    display: table-row;
+}
+
+.layout-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* нужно только для макета контента */
+.postcontent .content-layout {
+    border-collapse: collapse;
+}
+
+.block {
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+
+    .block ul > li, .block ol {
+        padding: 0;
+    }
+
+    .block ul > li {
+        padding-left: 11px;
+    }
+
+.breadcrumbs {
+    margin: 0 auto;
+}
+
+.button img {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.firefox2 .button {
+    display: block;
+    float: left;
+}
+
+.block select {
+    width: 96%;
+}
+
+
+.post {
+    background: #ECEFEE;
+    background: rgba(236, 239, 238, 0.1);
+    border-radius: 6px;
+    margin: 7px;
+}
+
+a img {
+    border: 0;
+}
+
+.article img, img.article, .block img, .footer img {
+    margin: 15px 15px -20px 0px;
+}
+
+.metadata-icons img {
+    border: none;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.article table, table.article {
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+.post .content-layout-br {
+    height: 0;
+}
+
+
+.article th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+pre {
+    overflow: auto;
+    padding: 0.1em;
+}
+
+.preview-cms-logo {
+    border: 0;
+    margin: 1em 1em 0 0;
+    float: left;
+}
+
+.image-caption-wrapper {
+    padding: 0 0 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .image-caption-wrapper img {
+        margin: 0 !important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .image-caption-wrapper div.collage {
+        margin: 0 !important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .image-caption-wrapper p {
+        font-size: 80%;
+        text-align: right;
+        margin: 0;
+    }
+
+p {
+    font-size: 12px;
+}
+
+.windows {
+    z-index: 20001;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.Fon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: #CCCCCC;
+    opacity: 0.6;
+    z-index: 20000;
+}
+
+.lightbox-wrapper {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    bottom: 0;
+    left: 0;
+    padding: 0 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1000000;
+}
+
+    .lightbox,
+    .lightbox-wrapper .lightbox-image {
+        cursor: pointer;
+    }
+
+    .lightbox-wrapper .lightbox-image {
+        border: 6px solid #fff;
+        border-radius: 3px;
+        display: none;
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+    }
+
+        .lightbox-wrapper .lightbox-image.active {
+            display: inline-block;
+        }
+
+    .lightbox-wrapper .lightbox-error {
+        background: #fff;
+        border: 1px solid #b4b4b4;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px #333;
+        height: 80px;
+        opacity: .95;
+        padding: 20px;
+        position: fixed;
+        width: 300px;
+        z-index: 100;
+    }
+
+    .lightbox-wrapper .loading {
+        background: #fff url('Education/Preschool/Images/preloader-01.gif') center center no-repeat;
+        border: 1px solid #b4b4b4;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px #333;
+        height: 32px;
+        opacity: .5;
+        padding: 10px;
+        position: fixed;
+        width: 32px;
+        z-index: 10100;
+    }
+
+    .lightbox-wrapper .arrow {
+        cursor: pointer;
+        height: 100px;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        position: fixed;
+        width: 82px;
+        z-index: 10003;
+    }
+
+        .lightbox-wrapper .arrow.left {
+            left: 9px;
+        }
+
+        .lightbox-wrapper .arrow.right {
+            right: 9px;
+        }
+
+        .lightbox-wrapper .arrow:hover {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        .lightbox-wrapper .arrow.disabled {
+            display: none;
+        }
+
+    .lightbox-wrapper .arrow-t,
+    .lightbox-wrapper .arrow-b {
+        background-color: #fff;
+        border-radius: 3px;
+        height: 6px;
+        left: 26px;
+        position: relative;
+        width: 30px;
+    }
+
+    .lightbox-wrapper .arrow-t {
+        top: 38px;
+    }
+
+    .lightbox-wrapper .arrow-b {
+        top: 50px;
+    }
+
+    .lightbox-wrapper .close {
+        cursor: pointer;
+        height: 22px;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        position: fixed;
+        right: 39px;
+        top: 30px;
+        width: 22px;
+        z-index: 10003;
+    }
+
+        .lightbox-wrapper .close:hover {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        .lightbox-wrapper .close .cw,
+        .lightbox-wrapper .close .ccw {
+            background-color: #fff;
+            border-radius: 3px;
+            height: 6px;
+            position: absolute;
+            left: -4px;
+            top: 8px;
+            width: 30px;
+        }
+
+    .lightbox-wrapper .cw {
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        -webkit-transform: rotate(45deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(45deg);
+        /* Opera */
+        -moz-transform: rotate(45deg);
+        /* Firefox */
+    }
+
+    .lightbox-wrapper .ccw {
+        transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-45deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(-45deg);
+        /* Opera */
+        -moz-transform: rotate(-45deg);
+        /* Firefox */
+    }
+
+    .lightbox-wrapper .close-alt,
+    .lightbox-wrapper .arrow-right-alt,
+    .lightbox-wrapper .arrow-left-alt {
+        color: #fff;
+        display: none;
+        font-size: 2.5em;
+        line-height: 100%;
+    }
+
+.ie8 .lightbox-wrapper .close-alt,
+.ie8 .lightbox-wrapper .arrow-right-alt,
+.ie8 .lightbox-wrapper .arrow-left-alt {
+    display: block;
+}
+
+.ie8 .lightbox-wrapper .cw,
+.ie8 .lightbox-wrapper .ccw {
+    display: none;
+}
+
+.lbmenu {
+    color: black;
+}
+
+.blockcontent table,
+.blockcontent li,
+.blockcontent a,
+.blockcontent a:link,
+.blockcontent a:visited,
+.blockcontent a:hover {
+    /*color: #214A73;*/
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.colorred {
+    background: #F73044;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.resetPassw{
+	margin-bottom:5px;
+	margin-top: 5px;
+	margin-left:5px;
+}
+
+.buttonsPassw{
+    margin-top:20px;
+	margin-left:30px;
+}

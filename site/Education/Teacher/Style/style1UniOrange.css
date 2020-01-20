@@ -1,0 +1,505 @@
+#main {
+    /*цвет общего фона*/
+    background: #DBE1DF;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.object489546606-text,
+.object489546606-text a.rss-tag-icon,
+.object489546606-text a.facebook-tag-icon,
+.object489546606-text a.twitter-tag-icon,
+.object489546606-text p
+ {
+    font-size: 15px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    vertical-align: middle;
+    color: black !important;
+}
+
+.object489546606-text {
+    line-height: 100%;
+    display: table-cell;
+    outline-style: none;
+    padding: 0px 0px !important;
+    word-wrap: break-word;
+    width: 100%;
+    text-align: center;
+}
+
+.object489546606 {
+    position: absolute;
+    top: 230px;
+    /*left: 16.7%;*/
+    /*margin-left: 65px !important;*/
+    transform: rotate(0deg);
+    overflow: hidden;
+    z-index: 9;
+}
+
+.headline {
+    display: inline-block;
+    position: absolute;
+    min-width: 50px;
+    top: 35px;
+    left: 23.4%;
+    line-height: 100%;
+    /* margin-left: 41px !important; */
+    z-index: 101;
+}
+
+    .headline,
+    .headline a,
+    .headline a:link,
+    .headline a:visited,
+    .headline a:hover,
+    .headline p {
+        font-size: 26px;
+        font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+        text-decoration: none;
+        text-shadow: 1.4px 1.4px 0px rgba(23, 23, 23, 0.82);
+        padding: 0;
+        margin: 0;
+        /*цвет короткого названия учреждения на потолке*/
+        color: #E2341D !important;
+        white-space: nowrap;
+    }
+
+.slogan {
+    display: inline-block;
+    position: absolute;
+    min-width: 50px;
+    top: 50px;
+    /*left: 12%;*/
+    line-height: 100%;
+    /*margin-left: 104px !important;*/
+    z-index: 102;
+    white-space: nowrap;
+}
+
+    .slogan,
+    .slogan a,
+    .slogan a:link,
+    .slogan a:visited,
+    .slogan a:hover {
+        font-size: 18px;
+        font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+        font-weight: bold;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+        text-shadow: 1.4px 1.4px 0px rgba(23, 23, 23, 0.82);
+        color: #EF7F1A !important;
+    }
+
+.header {
+    margin: 0 auto;
+    height: 150px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1000px;
+    z-index: auto !important;
+}
+
+.responsive .header {
+    background-image: url('Education/Preschool/Images/header.png');
+    background-position: center center;
+}
+
+.nav {
+    /*цвет верхнего меню*/
+    background: #1090D5 url('Education/Teacher/Images/navPurpur.png') scroll;
+    background: rgba(204, 214, 224, 0.8) url('Education/Teacher/Images/navPurpur.png') scroll;
+    margin: 10px auto 0;
+    position: relative;
+    z-index: 499;
+    text-align: left;
+}
+
+ul.hmenu > li > a {
+    padding: 0 22px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: 70px;
+    cursor: pointer;
+    text-decoration: none;
+    /*цвет текста верхнего меню*/
+    color: black;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+    ul.hmenu > li > a.active {
+        background: #54CE36;
+        padding: 0 22px;
+        margin: 0 auto;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    ul.hmenu > li > a:hover, .desktop ul.hmenu > li:hover > a {
+        /*цвет активного верхнего меню*/
+        background: #EF7F1A;
+        color: white;
+        padding: 0 22px;
+        margin: 0 auto;
+    }
+
+ul.hmenu > li:before {
+    position: absolute;
+    display: block;
+    content: ' ';
+    top: 0;
+    left: -1px;
+    width: 1px;
+    height: 70px;
+    background: url('Education/Teacher/Images/menuseparator.png') center center no-repeat;
+}
+
+ul.hmenu li li a {
+    background: #D8DEDC;
+    border: 1px solid #B5C0BC;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+
+ul.hmenu ul li a:hover, .desktop ul.hmenu ul li:hover > a {
+    background: #B5C0BC;
+    border: 1px solid #9CABA6;
+    margin: 0 auto;
+}
+
+ul.hmenu ul:before {
+    background: #80938D;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    content: ' ';
+    z-index: 1;
+}
+
+ul.hmenu ul {
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-image: url('Education/Preschool/Images/spacer.gif');
+}
+
+.sheet {
+    background: #FFFFFF;
+    border: 1px solid #D8DEDC;
+    border-bottom: none;
+    margin: 15px auto 15px;
+    position: relative;
+    cursor: auto;
+    width: 1000px;
+    z-index: auto !important;
+}
+
+.blockcontent {
+    background: #E6EAE9;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+    border: 1px solid #D8DEDC;
+    padding: 3px;
+    margin: 0 auto;
+    color: #214A73;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+    .blockcontent p {
+        margin: 6px 0;
+    }
+
+    .blockcontent a, .blockcontent a:link {
+        /*color: #518FCD;*/
+        font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+        text-decoration: underline;
+    }
+
+        .blockcontent a:visited, .blockcontent a.visited {
+            color: #9CABA6;
+            font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+            text-decoration: none;
+        }
+
+        .blockcontent a:hover, .blockcontent a.hover {
+            /*цвет выдеденной боковой ссылки*/
+            color: #EF7F1A;
+            font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+            text-decoration: none;
+        }
+
+.block ul > li:before {
+    content: url('Education/Preschool/Images/blockbullets.png');
+    margin-right: 6px;
+    bottom: 1px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0;
+    margin-left: -11px;
+}
+
+.opera .block ul > li:before {
+    /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.block li {
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 125%;
+    color: #424D49;
+}
+
+a.button,
+a.button:link,
+a:link.button:link,
+body a.button:link,
+a.button:visited,
+body a.button:visited,
+input.button,
+button.button {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    color: #DBE1DF;
+    margin: 0 5px 0 0 !important;
+    overflow: visible;
+    cursor: pointer;
+    text-indent: 0;
+    line-height: 38px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.button.active, .button.active:hover {
+    background: #F4B986;
+    background: linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    background: -moz-linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    background: -o-linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    background: -ms-linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    background: linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    -svg-background: linear-gradient(top, #F7CFAB 0, #F0A460 100%) no-repeat;
+    border-width: 0;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+    .button.active, .button.active:hover {
+        color: #1F2128 !important;
+    }
+
+.button.hover, .button:hover {
+    /*Цвет активной кнопки*/
+    background: #DBE1DF;
+    border-width: 0;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.button.hover, .button:hover {
+    color: #212725 !important;
+}
+
+.footer {
+    /*цвет футера*/
+    background: rgba(204, 214, 224, 0.8) url('Education/Teacher/Images/navPurpur.png') scroll;
+    margin: 10px auto 0;
+    position: relative;
+    color: #232927;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-align: center;
+    padding: 0;
+}
+
+.content-layout .sidebar1 {
+    background: #D8DEDC;
+    background: transparent;
+    border-right: 1px solid #868BA2;
+    margin: 0 auto;
+    width: 260px;
+}
+
+.content-layout .content {
+    margin: 0 auto;
+}
+
+.accordionHeader {
+    border: 1px solid #2F4F4F;
+    color: white;
+    background: #EF7F1A url('Education/Teacher/Images/navOrange.png') scroll;
+    /*background-color: #3A98E6;*/
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeader a {
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
+
+    #master_content .accordionHeader a:hover {
+        background: none;
+        text-decoration: underline;
+    }
+
+.accordionHeaderSelected {
+    color: white;
+    background: #EF7F1A;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeaderSelected a {
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
+
+    #master_content .accordionHeaderSelected a:hover {
+        background: none;
+        text-decoration: underline;
+    }
+
+.accordionContent {
+    background-color: white;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.objectBtns {
+    position: absolute;
+    top: 270px;
+    left: -28.7%;
+    margin-left: 290px !important;
+    z-index: 104;
+    /* width: 250px; */
+    height: 55px;
+}
+
+.objectLogo {
+    position: absolute;
+    top: 6px;
+    /*margin-left: 130px !important;*/
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 104;
+}
+
+
+.objectImagePromo {
+    position: absolute;
+    top: 10px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 17;
+}
+
+.btnEmail {
+    background: url('Education/Images/btnEmail.png');
+}
+
+.btnVisible {
+    background-image: url('Education/Images/btnVisible.png');
+}
+
+.btnSearch {
+    background-image: url('Education/Images/btnSearch.png');
+}
+
+.btnLoock {
+    background-image: url('Education/Images/btnLock.png');
+}
+
+.texttitle {
+    color: rgb(202, 57, 18);
+}
+
+.colorblock {
+    background: #EF7F1A url('Education/Teacher/Images/navOrange.png') scroll;
+}
+
+.colorbutton {
+    background-color: #EF7F1A;
+}
+
+.colorlogo {
+    background-color: #EF7F1A;
+}
+
+.footerframe {
+    /* background: rgba(255, 255, 255, 0.3);*/
+}
+
+.fio{
+    width: 45%;
+}
+
+.postTeacher{
+    width: 45%;
+    text-align:center;
+}
+
+.btnsAll{
+    width: 45%;
+}
+
+.teacher1 {
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
